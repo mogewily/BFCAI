@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/third"
+    tools:context=".ui.gallery.GalleryFragment"
+    >
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.gallery.GalleryFragment"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/profile_pic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/profile"
+        />
+
+    <TextView
+        android:id="@+id/text_username_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_pic"
+        android:textSize="27sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="#FF1285E1"
+        android:text="User Name"
+       />
+    <TextView
+        android:id="@+id/text_email_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_username_show"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="#AEA6BC"
+        android:text="email address"
+        />
+    <TextView
+        android:id="@+id/text_details_show"
+        android:layout_below="@+id/text_email_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="#AEA6BC"
+        android:text="more user details"
+        />
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_email_show"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="305dp"
+        android:backgroundTint="#1285E1"
+        app:cornerRadius="56dp"
+
+        android:text="Update Password"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
+
+</ScrollView>

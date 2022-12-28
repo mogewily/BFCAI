@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "220937999592",
+    "firebase_url": "https://bfcai-18a93-default-rtdb.firebaseio.com",
+    "project_id": "bfcai-18a93",
+    "storage_bucket": "bfcai-18a93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220937999592:android:b216a73a577e57dc09a55d",
+        "android_client_info": {
+          "package_name": "com.example.bfcai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220937999592-dc714dblu37sgp2s9lkcehjqtcl0vqgt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMO_wNoFLXnxzoZ5dbdVQ61NZL5hxX2zc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220937999592-dc714dblu37sgp2s9lkcehjqtcl0vqgt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220937999592:android:983afd9132ba15f809a55d",
+        "android_client_info": {
+          "package_name": "com.example.demov60"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220937999592-dc714dblu37sgp2s9lkcehjqtcl0vqgt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMO_wNoFLXnxzoZ5dbdVQ61NZL5hxX2zc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220937999592-dc714dblu37sgp2s9lkcehjqtcl0vqgt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

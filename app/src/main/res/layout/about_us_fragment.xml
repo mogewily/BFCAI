@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.aboutus.AboutUs">
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/sammy"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/samy_pic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/samy"
+
+
+            />
+
+        <TextView
+            android:id="@+id/samy_jop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/samy_pic"
+            android:text="Android Dev/ Embedded System Engineer "
+
+
+            />
+
+
+        <TextView
+            android:id="@+id/samy_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/samy_jop"
+            android:layout_marginLeft="60dp"
+            android:layout_toRightOf="@id/samy_pic"
+
+            android:text="Ahmed Samy Ali "
+
+
+            />
+
+        <TextView
+            android:id="@+id/samy_mailtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/samy_text"
+            android:layout_marginLeft="60dp"
+            android:text="Email : ahmedsamy30496@gmail.com"
+
+            />
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/fares_all"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:layout_below="@id/sammy"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/fares_pic"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/fares"
+
+
+            />
+
+        <TextView
+            android:id="@+id/fares_jop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/fares_pic"
+            android:text="Android Dev / Embedded System Engineer"
+
+
+            />
+
+        <TextView
+            android:id="@+id/fares_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fares_jop"
+            android:layout_marginLeft="60dp"
+            android:layout_toRightOf="@id/fares_pic"
+            android:text="Mohamed Fares Gewily"
+
+
+            />
+
+        <TextView
+            android:id="@+id/fares_mailtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fares_text"
+            android:layout_marginLeft="60dp"
+            android:text="Email : mohamedgewily170@gmail.com"
+
+            />
+
+    </com.google.android.material.chip.ChipGroup>
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:id="@+id/azmaa_all"
+        android:layout_below="@id/fares_all"
+        android:layout_marginTop="10dp"
+
+
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/sami_pic"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/azmaa"
+
+
+            />
+
+        <TextView
+            android:id="@+id/sami_jop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+
+            android:layout_toRightOf="@id/sami_pic"
+            android:text="UI/UX Designer / Embedded System Engineer "
+
+
+            />
+
+        <TextView
+            android:id="@+id/sami_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_below="@id/sami_jop"
+            android:layout_toRightOf="@id/samy_pic"
+
+            android:text="Ahmed Samy Abd-Elmonem "
+
+
+            />
+
+        <TextView
+            android:id="@+id/sami_mailtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sami_text"
+            android:layout_marginLeft="60dp"
+            android:text="Email : ahmedsami7439@gmail.com"
+
+            />
+
+    </com.google.android.material.chip.ChipGroup>
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/elshall_all"
+        android:layout_below="@id/azmaa_all"
+
+
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/shall_pic"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shal"
+
+
+            />
+
+        <TextView
+            android:id="@+id/shall_jop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+
+            android:layout_toRightOf="@id/shall_pic"
+            android:text="Full Stack Developer               "
+
+
+            />
+
+        <TextView
+            android:id="@+id/shall_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_below="@id/shall_jop"
+            android:layout_toRightOf="@id/shall_pic"
+
+            android:text="Mahmoud Ahmed Abd-Elfattah"
+
+
+            />
+
+        <TextView
+            android:id="@+id/shall_mailtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/shall_text"
+            android:layout_marginLeft="60dp"
+            android:text="Email : mahmoudelshall292@gmail.com"
+
+            />
+
+    </com.google.android.material.chip.ChipGroup>
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/nasef_all"
+        android:layout_below="@id/elshall_all"
+
+
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/nasef_pic"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/nasef"
+
+
+            />
+
+        <TextView
+            android:id="@+id/nasef_jop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+
+            android:layout_toRightOf="@id/nasef_pic"
+            android:text="Full Stack Developer               "
+
+
+            />
+
+        <TextView
+            android:id="@+id/nsef_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_below="@id/nasef_jop"
+            android:layout_toRightOf="@id/nasef_pic"
+
+            android:text="Ahmed Saad Ahmed "
+
+
+            />
+
+        <TextView
+            android:id="@+id/nasef_mailtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/shall_text"
+            android:layout_marginLeft="60dp"
+            android:text="Email : ahmednasef059@gmail.com"
+
+            />
+
+    </com.google.android.material.chip.ChipGroup>
+
+
+</RelativeLayout>
